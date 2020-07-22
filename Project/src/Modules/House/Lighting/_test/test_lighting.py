@@ -37,7 +37,7 @@ class A0(unittest.TestCase):
 
 
 class A1_Setup(SetupMixin, unittest.TestCase):
-    """ This section tests the master setup above this.
+    """ This section tests the main setup above this.
     """
 
     def setUp(self):

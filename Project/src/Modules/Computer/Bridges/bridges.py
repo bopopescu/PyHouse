@@ -156,7 +156,7 @@ class Api:
 
     def SaveConfig(self):
         """
-        @param p_pyhouse_obj: the master obj
+        @param p_pyhouse_obj: the main obj
         """
         # self.m_local_config.save_yaml_config()
         LOG.info("Saved Bridges Config")

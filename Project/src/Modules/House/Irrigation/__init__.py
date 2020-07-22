@@ -2,13 +2,13 @@
 The irrigation system.
 
 Each irrigation system has one source of water.  It could be a faucet or a dedicated line or a well with a pump.
-The system can be always on, seasonally on (above freezing?) or use a pump relay and/or master valve.
+The system can be always on, seasonally on (above freezing?) or use a pump relay and/or main valve.
 
 A system may be divided into zones.  Each zone can take a part or all of the water being used.
 Within a system, only one zone may be active at a time.
 
 System Types:
-    Multi Zoned.  This takes a pump-start relay or a master valve and then individual zone valves where the zones
+    Multi Zoned.  This takes a pump-start relay or a main valve and then individual zone valves where the zones
     run in sequence.
 
     Single Zone.  This has a valve to turn the system on or off.

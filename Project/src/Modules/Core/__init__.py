@@ -34,7 +34,7 @@ class PyHouseInformation:
     """
     ==> PyHouse.xxx as in the def below.
 
-    The master object, contains all other 'configuration' objects.
+    The main object, contains all other 'configuration' objects.
 
     """
 

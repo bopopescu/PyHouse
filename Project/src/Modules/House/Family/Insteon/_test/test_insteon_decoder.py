@@ -69,7 +69,7 @@ class A1_Setup(SetupMixin, unittest.TestCase):
         # print(PrettyFormatAny.form(self.m_pyhouse_obj.House, 'A1-01-B - PyHouse.House'))
         # print(PrettyFormatAny.form(self.m_pyhouse_obj.House.Lighting, 'A1-01-C - PyHouse.House.Lighting', 80))
         # print(PrettyFormatAny.form(self.m_pyhouse_obj.House.Security, 'A1-01-D - PyHouse.House.Security', 80))
-        self.assertEqual(self.m_pyhouse_obj.Xml.XmlFileName, '/etc/pyhouse/master.xml')
+        self.assertEqual(self.m_pyhouse_obj.Xml.XmlFileName, '/etc/pyhouse/main.xml')
         self.assertEqual(len(self.m_pyhouse_obj.House.Lighting.Buttons), 2)
         self.assertEqual(len(self.m_pyhouse_obj.House.Lighting.Controllers), 2)
         self.assertEqual(len(self.m_pyhouse_obj.House.Security.Garage_Doors), 1)

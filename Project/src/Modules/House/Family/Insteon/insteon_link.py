@@ -322,7 +322,7 @@ class DecodeLink:
             my $data3 = $device_object->firmware;
             my $type  = substr( $message_data,          0, 2 );
             my $group = substr( $message_data,          2, 2 );
-            #Select type of link (00 - responder, 01 - master, ff - delete)
+            #Select type of link (00 - responder, 01 - main, ff - delete)
             if ( $type eq '00' ) {
                 $self->_aldb->add_link_to_hash( 'A2', $group, '0', $link_address, $data1, $data2, $data3 );
             } elsif ( $type eq '01' ) {
